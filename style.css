@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #1c1c1c;
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,29 +17,30 @@ body {
 }
 
 .pricing-plan {
-    background-color: #fff;
+    background-color: #333;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     width: 280px;
+    color: #e0e0e0;
 }
 
 .pricing-plan:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .pricing-plan h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #333;
+    color: #f0f0f0;
 }
 
 .price {
     font-size: 32px;
-    color: #2d89e5;
+    color: #4ca1ff;
     margin-bottom: 20px;
 }
 
@@ -52,11 +53,11 @@ ul {
 ul li {
     margin-bottom: 10px;
     font-size: 16px;
-    color: #666;
+    color: #cccccc;
 }
 
 .select-plan {
-    background-color: #2d89e5;
+    background-color: #4ca1ff;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -66,11 +67,11 @@ ul li {
 }
 
 .select-plan:hover {
-    background-color: #1c6ab9;
+    background-color: #357ab8;
 }
 
 .featured {
-    background-color: #2d89e5;
+    background-color: #4ca1ff;
     color: #fff;
     transform: scale(1.05);
 }
@@ -83,11 +84,11 @@ ul li {
 
 .featured .select-plan {
     background-color: #fff;
-    color: #2d89e5;
+    color: #4ca1ff;
 }
 
 .featured .select-plan:hover {
-    background-color: #f4f4f4;
+    background-color: #e0e0e0;
 }
 
 @media (max-width: 768px) {
