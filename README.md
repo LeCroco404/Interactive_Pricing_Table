@@ -1,7 +1,3 @@
-Voici un exemple de README et une section "About" pour votre projet **Interactive Pricing Table** :
-
----
-
 ## README
 
 # Interactive Pricing Table
